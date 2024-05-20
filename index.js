@@ -14,7 +14,12 @@ const apiDoc = {
     version: '1.0.0',
     data: {
         "static": [
-    
+            {
+                name: 'getRestaurants',
+                description: 'Récupère la liste des restaurants CROUS de Toulouse',
+                method: 'GET',
+                endpoint: '/getRestaurants',
+            }
         ],
         "dynamic": [
             {
